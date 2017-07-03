@@ -1,6 +1,5 @@
 import unittest
 from primegenerator import get_prime_numbers
-import logging as log
 class TestPrimeGenerator(unittest.TestCase):
     
     def test_isnumber(self):
