@@ -1,0 +1,13 @@
+"""
+Big O analysis
+Outer for loop always runs n-3 times
+Inner for loop runs sqrt(n)-2 in a worst case scenario
+For worst case performance; inner loop runs sqrt(n)-2 times
+    for each of the n-3 outer loop runs
+Thus, worst case time f(n)= n-3 * sqrt(n) - 2
+For large n, f(n)=n*sqrt(n) and sqr(n) grows similarly to log(n) 
+making f(n)=nlogn
+
+This algorithm runs with O(nlogn)
+
+"""
